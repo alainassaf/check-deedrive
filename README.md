@@ -1,7 +1,7 @@
 # check-deedrive
 Iterate  though all XenApp Servers in the farm and checks that the D: drive is formatted.
 
-#Contributions to this script
+# Contributions to this script
 I'd like to highlight the posts that helped me write this scrip below.
 * http://carlwebster.com/finding-offline-servers-using-powershell-part-1-of-4/
 
