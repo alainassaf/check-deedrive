@@ -5,22 +5,23 @@ Iterate  though all XenApp Servers in the farm and checks that the D: drive is f
 I'd like to highlight the posts that helped me write this scrip below.
 * http://carlwebster.com/finding-offline-servers-using-powershell-part-1-of-4/
 
+# get-help .\get-ctxLoadAndLE.ps1 -full
+
 NAME<br>
     check-deedrive.ps1
     
 SYNOPSIS<br>
     Iterate  though all XenApp Servers in the farm and checks that the D: drive is formatted.
     
-    
 SYNTAX<br>
     PS> check-deedrive.ps1 [-XMLBrokers] <Object> [<CommonParameters>]
-    
     
 DESCRIPTION<br>
     Iterate  though all XenApp Servers in the farm and checks that the D: drive is formatted.
     It is recommended that this script be run as a Citrix admin.
     
 PARAMETERS
+
     -XMLBrokers <Object>
         Required parameter. Which Citrix XMLBroker(s) (farm) to query. Can be 
         a list separated by commas.
@@ -36,10 +37,8 @@ PARAMETERS
     <CommonParameters>
         This cmdlet supports the common parameters: Verbose, Debug,
         ErrorAction, ErrorVariable, WarningAction, WarningVariable,
-        OutBuffer, PipelineVariable, and OutVariable. For more information, 
-    see 
-        about_CommonParameters 
-    (http://go.microsoft.com/fwlink/?LinkID=113216). 
+        OutBuffer, PipelineVariable, and OutVariable. For more information, see 
+        about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216). 
     
 INPUTS<br>
     None
