@@ -59,7 +59,6 @@ function Test-Port{
     PS> test-port SERVERNAME 1494 100
     Test TCP connection to SERVERNAME over port 1494 with a 100 millisecond timeout
     .LINK
-    http://cgit0401v.ncsecu.local/Bonobo.Git.Server/Repository/ctxModules/
     http://www.linkedin.com/in/alainassaf/
     http://wagthereal.com
     http://irl33t.com/blog/2011/03/powershell-script-connect-rdp-ps1
